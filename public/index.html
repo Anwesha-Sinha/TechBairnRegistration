@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBairnRegistration</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+<fieldset>
+    <!-- <legend > < TechBairn ></legend> -->
+    <legend style="text-align: center; background-color: lightgrey; padding-top: 20px; padding-bottom: 20px ;"><strong>TechBairn's Course Registration Form</strong></legend>
+ 
+   <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-6 main">
+                <form action="/registration" method="POST">
+                    <h2 >Registration  Form</h2>
+                    <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+                    <br><br>
+                    <input type="text" class="box" id="email" name="email" placeholder="Email" required />
+                    <br>
+                    <input type="number" class="box" id="phno" name="phno" placeholder="Mobile" required />
+                    <br>
+                    <input type="password" class="box" id="password" name="password" placeholder="Password" required />
+                    <br>
+                    <input type="submit" value="Submit" id="submit" />
+                </form> 
+           </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>-->
+    <legend style="text-align: center; background-color:lightblue;">
+    <div class="container" >
+        <form action="/registration" method="POST" style="background-color: lightblue;">
+            <h3 style="color: red;text-align: center; "> Kindly fill the below fields accurately</h3>
+        
+        <br><br>
+        <div style="text-align: center; background-color:lightblue;">
+           
+                
+                <div style="text-align: center;">
+        <label for="name" style="text-align: center;"><b>Name:</b></label>
+        <input type="text" class="box" id="name" name="name" placeholder="Name" required  /><br><br>
+        <label for="email" style="text-align: center;">Email:</label>
+        <input type="email" class="box" id="email" name="email" placeholder="abc@gmail.com" required  /><br><br>
+        <label for="dob" style="text-align: center;">DOB:</label>
+        <input type="date" class="box" id="dob" name="dob" placeholder="Date of birth" required  /><br><br> 
+        <label for="college" style="text-align: center;">College/Univ. :</label>
+        <input type="text" class="box" id="college" name="college" placeholder="Institution Name" required  /><br><br> 
+        <label for="branch" style="text-align: center;">Branch :</label>
+        <input type="text" class="box" id="college" name="college" placeholder="Branch required  /><br><br> 
+        <label for="semester" style="text-align: center;">semester :</label>
+        <input type="text" class="box" id="semester" name="semester" placeholder="semester" required  /><br><br> 
+        <label for="phone" style="text-align: center;">Phone :</label>
+        <input type="tel" class="box" id="phno" name="phno" placeholder="Enter Your  Number" required  /><br><br>
+         <!-- <label for="course" style="text-align: center;">Course:</label>
+        <input type="text" class="box" id="course" name="course" placeholder="Enter  Course Choice" required  /><br><br> -->
+         <label><b> Course:</b></label>
+        <select type="text" id="course" name="course" required >
+            <option value="" disabled selected hidden>Select your course</option>
+            <option value="0">Competitive Programming</option>
+            <option value="1">Machine Learning</option>
+            <option value="2">Management</option>
+            <option value="3">Web development</option>
+            <option value="4">App development</option>
+            <option value="5">Others</option>
+        </select>
+        <br><br>
+         <label for="courseconfirm" style="text-align: center;">Confirm Course:</label>
+        <input type="text" class="box" id="courseconfirm" name="courseconfirm" placeholder="Confirm your course" required  /><br><br> 
+        <br>
+        <p><h1>Address</h1></p>
+        <label for="streetaddress" style="text-align: center;">Street:</label>
+        <input type="text" class="box" id="streetaddress" name="streetaddress" placeholder="street address" required  /><br><br>
+        <label for="city" style="text-align: center;">City:</label>
+        <input type="text" class="box" id="city" name="city" placeholder="city" required  /><br><br>
+        <label for="postalcode" style="text-align: center;">Postal Code:</label>
+        <input type="text" class="box" id="postalcode" name="postalcode" placeholder="postal code" required  /><br><br>
+        <label for="state" style="text-align: center;">State:</label>
+        <input type="text" class="box" id="state" name="state" placeholder="State" required  /><br><br>
+        <input type="submit" value="Submit" id="submit" style="color: blue; background-color: lightgreen;"/>
+    </div>
+    <br><br>
+    <div>
+        <p>Let's accelerate the future!!</p>
+    </div>
+</legend>
+        </form>
+    </div>
+    <form>
+
+    </form>
+</fieldset>
+ 
+
+</body>
+
+</html>
